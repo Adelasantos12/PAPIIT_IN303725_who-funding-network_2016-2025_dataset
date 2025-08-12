@@ -70,7 +70,7 @@ README.md # This document
 
 ## Data Workflow (Mermaid)
 
-```mermaid``
+```mermaid
 flowchart TD
     A[WHO IATI Programme Budget Data (Q4/Q1)] --> B[data/raw/ (CSV: Donor–Programme Flows)]
     B --> C[Data Pre-processing in Python (pandas)]
@@ -84,4 +84,4 @@ flowchart TD
     style B fill:#f1f8e9,stroke:#33691e,stroke-width:2px
     style E fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
     style H fill:#ffe0b2,stroke:#ef6c00,stroke-width:2px
-
+```
