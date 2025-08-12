@@ -69,9 +69,8 @@ README.md # This document
 ---
 
 ## Data Workflow (Mermaid)
-> GitHub renders Mermaid natively. If you no longer see the diagram, ensure this section keeps the triple back‑ticks with `mermaid`.
 
-```mermaid```
+```mermaid``
 flowchart TD
     A[WHO IATI Programme Budget Data (Q4/Q1)] --> B[data/raw/ (CSV: Donor–Programme Flows)]
     B --> C[Data Pre-processing in Python (pandas)]
