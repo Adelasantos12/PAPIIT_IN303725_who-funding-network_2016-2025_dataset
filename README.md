@@ -72,12 +72,12 @@ README.md # This document
 
 ```mermaid
 flowchart TD
-    A[WHO IATI Programme Budget Data (Q4/Q1)] --> B[data/raw/ (CSV: Donor–Programme Flows)]
-    B --> C[Data Pre-processing in Python (pandas)]
-    C --> D[Network Construction in Gephi (Directed Weighted Graphs)]
-    D --> E[data/processed/ (Gephi Metrics: Density, Modularity, Centrality)]
-    E --> F[Longitudinal Trend Analysis (2016–2025)]
-    F --> G[Interpretation via Critical Transitions Theory (Scheffer Framework)]
+    A[WHO IATI Programme Budget Data Q4/Q1] --> B[data/raw – CSV Donor–Programme Flows]
+    B --> C[Data Pre-processing in Python – pandas]
+    C --> D[Network Construction in Gephi – Directed Weighted Graphs]
+    D --> E[data/processed – Gephi Metrics: Density, Modularity, Centrality]
+    E --> F[Longitudinal Trend Analysis 2016–2025]
+    F --> G[Interpretation via Critical Transitions Theory – Scheffer Framework]
     G --> H[Article Findings & Early-Warning Signals]
 
     style A fill:#e0f7fa,stroke:#00796b,stroke-width:2px
